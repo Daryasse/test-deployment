@@ -60,6 +60,7 @@ opensearch:
 opensearch-dashboards:
   image:
     repository: opensearchproject/opensearch-dashboards
+    tag: 2.12.0 
   enabled: true
   ingress:
     enabled: false
