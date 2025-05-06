@@ -60,6 +60,7 @@ opensearch:
 opensearch-dashboards:
   image:
     repository: opensearchproject/opensearch-dashboards
+  opensearchHosts: "https://opensearch-cluster-master:9200"
   enabled: true
   ingress:
     enabled: false
