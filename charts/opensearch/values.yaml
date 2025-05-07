@@ -62,7 +62,7 @@ opensearch-dashboards:
   image:
     repository: opensearchproject/opensearch-dashboards
     tag: 2.12.0 
-  opensearchHosts: "https://opensearch-cluster-master:9200"
+  # opensearchHosts: "https://opensearch-cluster-master:9200"
   enabled: true
   ingress:
     enabled: false
