@@ -7,11 +7,11 @@ version: 0.1.0
 dependencies:
 - name: opensearch
   alias: opensearch
-  version: 1.8.3
+  version: 3.0.0
   condition: opensearch.enabled
   repository: https://opensearch-project.github.io/helm-charts/
 - name: opensearch-dashboards
   alias: opensearch-dashboards
-  version: 1.2.2
+  version: 3.0.0
   condition: opensearch-dashboards.enabled
   repository: https://opensearch-project.github.io/helm-charts/
