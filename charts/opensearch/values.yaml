@@ -3,6 +3,7 @@ opensearch:
     repository: opensearchproject/opensearch
   enabled: true
   replicas: 1
+  singleNode: true
   config:
     opensearch.yml: |
       cluster.name: opensearch-cluster
